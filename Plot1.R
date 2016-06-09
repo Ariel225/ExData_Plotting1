@@ -1,6 +1,9 @@
 rm(list=ls())
 setwd("J:/personal/r-course/Assignments/4DV")
 
+# COMMENT THIS SECTION IN to re-read all the data.
+# Once it's run, same subsset used for remaining files. 
+
 # mydata<-read.table("household_power_consumption.txt",header=TRUE,sep = ";",flush = TRUE)
 # mydata2<-mydata[as.character(mydata$Date) %in% c("1/2/2007","2/2/2007"),]
 # for(j in 3:9) {
